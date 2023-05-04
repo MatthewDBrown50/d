@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Driver : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     // SerializeField makes the field show up as an editible field in Unity
-    [SerializeField] float moveSpeed = 5.0f;
+    [SerializeField] float moveSpeed = 15.0f;
     [SerializeField] float steerSpeed = 200.0f;
 
     // Start is called before the first frame update
