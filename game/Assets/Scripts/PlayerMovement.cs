@@ -26,4 +26,14 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, moveAmount, 0);
     }
+
+    public void setMoveSpeed(float moveSpeed)
+    {
+        this.moveSpeed = moveSpeed;
+    }
+
+    public float getMoveSpeed()
+    {
+        return this.moveSpeed;
+    }
 }
